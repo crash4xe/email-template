@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Template</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <style>
+        :root {
+    --bg-color: #853e75;
+    --black: #000;
+    --light-bg: #ffeffc;
+    --white: #FFF;
+}
+body{
+    margin: 0;
+}
+table{
+    border-spacing: 0;
+}
+td{
+    padding: 0;
+}
+img {
+    border: 0;
+}
+.wrapper{
+    width: 100%;
+    table-layout: fixed;
+}
+.main{
+    margin: 0 auto;
+    border-spacing: 0;
+    max-width: 600px;
+    width: 100%;
+    font-family: sans-serif;
+    background: var(--light-bg);
+    
+}
+.three-column{
+    text-align: center;
+}
+.three-column .column{
+    width: 100%;
+    max-width: 180px;
+    display: inline-block;
+}
+.three-column .padding{
+    padding: 20px 10px;
+}
+
+.img-icon{
+    border-radius: 20px;
+}
+
+.img-icon:hover{
+    scale: 110%;
+}
+
+.two-column{
+    text-align: center;
+}
+
+.two-column .column{
+    width: 100%;
+    max-width: 270px;
+    display: inline-block;
+}
+
+.two-column .padding{
+padding: 30px 0;
+}
+
+.button{
+    text-decoration: none;
+    color: var(--bg-color);
+    background-color: #fff;
+    border-radius:5px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+}
+.button:hover{
+    cursor: pointer;
+}
+
+.dark-button
+{
+    text-decoration: none;
+    color: #FFF;
+    background-color: var(--bg-color);
+    border-radius:5px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+}
+
+.dark-button:hover{
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <center class="wrapper">
+        <table class="main" width="100%">
+
+            <tr>
+                <td height="8px" style="background-color: var(--black);"></td>
+            </tr>
+            <!-- Header -->
+            <tr>
+                <td height="60px" style="background-color: var(--bg-color); text-align: center; color: var(--white);"><p style="font-weight: bold; font-size: 20px;">Welcome to Daringbadi</p></td>
+            </tr>
+            <!-- Banner -->
+            <tr>
+                <td><a href="#"><img src="./img/banner.jpeg" alt="Banner Pic" style="max-width: 100%;"></a></td>
+            </tr>
+            <!-- Three Columns Section -->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td class="three-column">
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td><a href="#"><img class="img-icon" src="./img/valley.jpg" alt="Mountain" style="width: 150px;"></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="150px"><p>Explore the valleys, witness sunrise and sunsets from different viewpoint</p></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td><a href="#"><img class="img-icon" src="./img/waterfall.jpg" alt="Mountain" style="width: 150px;"></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="150px"><p>Enjoy beautiful, serene and sublime waterfalls around this place</p></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td><a href="#"><img class="img-icon" src="./img/valley.jpg" alt="Mountain" style="width: 150px;"></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="150px"><p>Do nature camping in this beautiful places and enjoy the night sky</p></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- Two Columns section -->
+            <tr>
+                <td style="background-color: var(--bg-color); color: var(--white);">
+                    <table width="100%">
+                       <tr>
+                        <td class="two-column last">
+                            <table class="column">
+                                <tr>
+                                    <td class="padding">
+                                        <table class="content">
+                                            <tr>
+                                                <td>
+                                                    <a href="https://www.odishaecoretreats.com/daringbadi/"><img src="./img/Daringbadi-image-6.jpg" alt="" width="260" style="max-width: 260px;"></a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table class="column">
+                                <tr>
+                                    <td class="padding">
+                                        <table class="content">
+                                            <tr>
+                                                <td>
+                                                    <p style="font-weight: bold; font-size: 18px;">Daringbadi Eco Retreat</p>
+                                                    <p>Ever tried glamping under the starlit skies at a hill station nestled 3000 ft above sea level? Book your stay at Eco Retreat Daringbadi.</p>
+                                                    <a href="https://www.odishaecoretreats.com/daringbadi/"><button class="button">Read More</button></a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                       </tr>
+                    </table>
+                </td>
+            </tr>
+            <!--TITLE, TEXT & BUTTON-->
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td style="text-align: center; padding: 10px 0 20px; ">
+                                <p style="font-size: 20px; font-weight: bold;">Odisha Tourism</p>
+                                <p>Discover India's best kept secret. Visit Odisha.</p>
+                                <a href="#"><button class="dark-button">View More</button></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!--FOOTER SECTION-->
+            <tr>
+                <td style="background-color: var(--bg-color);">
+                    <table width="100%">
+                        <tr>
+                            <td style="text-align: center; padding: 20px 10px;">
+                                <a href="#"><img src="./img/logo_white.png" alt=""></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td height="8px" style="background-color: var(--black);"></td>
+            </tr>
+        </table>
+    </center>
+    
+</body>
+</html>
